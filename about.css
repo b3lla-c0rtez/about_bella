@@ -1,0 +1,64 @@
+#home {
+	position: fixed;
+	right: 80%;
+	top: 8px;
+}
+#about {
+	position: fixed;
+	right: 65%;
+	top: 8px;
+}
+
+#websites {
+	position: fixed;
+	right: 50%;
+	top: 8px;
+}
+
+#projects {
+	position: fixed;
+	right: 35%;
+	top: 8px;
+}
+
+#linked {
+	position: fixed;
+	right: 20%;
+	top: 8px;
+}
+
+#contact {
+	position: fixed;
+	right: 5%;
+	top: 8px;
+}
+
+button {
+	background-color: #adcde3; 
+	border-width: 0; 
+	color: black; 
+	height: 40px;
+	width: 100px;
+}
+
+button:hover {
+	background-color: #d3d3d3; 
+	border-width: 0; 
+	color: black; 
+	height: 40px;
+	width: 100px;
+}
+
+body {
+	background-color: #adcde3;
+}
+
+h2 {
+  margin-left:  40px;
+  margin-top:  65px;
+}
+
+p {
+  margin-left:  45px;
+  margin-top:  75px;
+}
