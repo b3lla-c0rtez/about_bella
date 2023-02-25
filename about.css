@@ -58,7 +58,18 @@ h2 {
   margin-top:  65px;
 }
 
-#bio {
-  left: 40%;
-  top: 75;
+p {
+  margin-left: 50px;
+  margin-top: 75px;
+}
+
+img {
+	margin-top:  65px;
+	width: 200px;
+	height:auto;
+}
+
+.parent{
+	display:flex;
+	gap: 5px;
 }
