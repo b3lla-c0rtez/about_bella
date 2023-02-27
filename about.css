@@ -33,6 +33,10 @@
 	top: 8px;
 }
 
+head {
+	background: #adcde3;
+}
+
 button {
 	background-color: #adcde3; 
 	border-width: 0; 
@@ -50,7 +54,7 @@ button:hover {
 }
 
 body {
-	background-color: #adcde3;
+	background-image: linear-gradient(#adcde3, #e697ee);
 }
 
 h2 {
@@ -65,11 +69,11 @@ p {
 
 img {
 	margin-top:  65px;
-	width: 200px;
-	height:auto;
+	width: 295px;
+	height: auto;
 }
 
 .parent{
 	display:flex;
-	gap: 5px;
+	gap: 10px;
 }
