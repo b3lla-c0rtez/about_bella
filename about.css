@@ -54,7 +54,7 @@ button:hover {
 }
 
 body {
-	background-image: linear-gradient(#adcde3, #e697ee);
+	background: linear-gradient(#adcde3, #e697ee);
 }
 
 h2 {
