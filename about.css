@@ -3,7 +3,6 @@
 	right: 80%;
 	top: 8px;
 }
-
 #about {
 	position: absolute;
 	right: 65%;
@@ -34,20 +33,31 @@
 	top: 8px;
 }
 
-head {
-	background: #adcde3;
+.header {
+	background: #f6cdff;
+	padding: 10px 0;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 5%;
+	position: fixed;
+}
+
+h1 {
+	opacity: 0.0;
 }
 
 button {
-	background-color: #adcde3; 
+	background-color: #f6cdff; 
 	border-width: 0; 
 	color: black; 
 	height: 40px;
 	width: 100px;
+	font-family: "Open Sans", sans-serif;
 }
 
 button:hover {
-	background-color: #d3d3d3; 
+	background-color: #a6a6a6; 
 	border-width: 0; 
 	color: black; 
 	height: 40px;
@@ -55,32 +65,55 @@ button:hover {
 }
 
 body {
-	background-image: linear-gradient(#adcde3, #f6cdff);
+	background-color: #adcde3;
 }
 
 h2 {
   margin-left:  40px;
-  margin-top:  65px;
-  font-size: 45px;
+  margin-top:  60px;
+  font-size: 40px;
+  font-family: "Open Sans", sans-serif;
 }
 
 p {
   margin-left: 55px;
   margin-top: 75px;
-  font-size: 18px;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
 }
 
 img {
 	margin-top:  65px;
 	width: 292px;
 	height: auto;
+	margin-bottom: 15px;
+	margin-left: 25px;
 }
 
 .parent{
 	display:flex;
-	gap: 10px;
+	gap: 18px;
 }
 
 footer {
-	font-size: 12px;
+	background: #f6cdff;
+	padding: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 5%;
+	position: fixed;
+}
+
+#email {
+	font-size: 13px;
+	bottom: 8px;
+	font-family: "Open Sans", sans-serif;
+	margin-left:  20px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.opensans {
+  font-family: "Open Sans", sans-serif;
 }
