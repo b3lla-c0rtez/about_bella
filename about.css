@@ -62,6 +62,7 @@ button:hover {
 	color: black; 
 	height: 40px;
 	width: 100px;
+	font-family: "Open Sans", sans-serif;
 }
 
 body {
@@ -83,15 +84,15 @@ p {
 
 img {
 	margin-top:  65px;
-	width: 292px;
+	width: 290px;
 	height: auto;
-	margin-bottom: 15px;
-	margin-left: 25px;
+	margin-bottom: 30px;
+	margin-left: 10px;
 }
 
 .parent{
 	display:flex;
-	gap: 18px;
+	gap: 5px;
 }
 
 footer {
