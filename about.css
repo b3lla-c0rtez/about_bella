@@ -1,34 +1,34 @@
 #home {
-	position: fixed;
+	position: absolute;
 	right: 80%;
 	top: 8px;
 }
 #about {
-	position: fixed;
+	position: absolute;
 	right: 65%;
 	top: 8px;
 }
 
 #websites {
-	position: fixed;
+	position: absolute;
 	right: 50%;
 	top: 8px;
 }
 
 #projects {
-	position: fixed;
+	position: absolute;
 	right: 35%;
 	top: 8px;
 }
 
 #linked {
-	position: fixed;
+	position: absolute;
 	right: 20%;
 	top: 8px;
 }
 
 #contact {
-	position: fixed;
+	position: absolute;
 	right: 5%;
 	top: 8px;
 }
@@ -54,17 +54,19 @@ button:hover {
 }
 
 body {
-	background-image: linear-gradient(#adcde3, #e697ee);
+	background-image: linear-gradient(#adcde3, #f6cdff);
 }
 
 h2 {
   margin-left:  40px;
   margin-top:  65px;
+  font-size: 45px;
 }
 
 p {
-  margin-left: 50px;
+  margin-left: 55px;
   margin-top: 75px;
+  font-size: 18px;
 }
 
 img {
@@ -76,4 +78,8 @@ img {
 .parent{
 	display:flex;
 	gap: 10px;
+}
+
+footer {
+	font-size: 12px;
 }
